@@ -1,0 +1,117 @@
+/* main.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container--main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section--page {
+    padding: 20px 0;
+}
+
+#wrapper--hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px; /* Reduced the size */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+}
+
+.header-container h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.header-container p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.contact-info li {
+    margin: 8px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0077b5;
+    margin-right: 15px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.qualifications ul, .certifications ul, .languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.qualifications li, .certifications li, .languages li {
+    margin: 8px 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+}
+
+.education-block {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0077b5;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
